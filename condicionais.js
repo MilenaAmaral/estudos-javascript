@@ -8,6 +8,11 @@ if (idade >= 18) {
     console.log("É menor de idade");
 }
 
+// Adiciona opção de operador ternário para a verificação de idade
+
+const resultadoIdade = idade >= 18 ? "É maior de idade" : "É menor de idade";
+console.log(resultadoIdade);
+
 // 2. Verificação nota do aluno
 // entre 9 e 10 - Excelente
 // entre 7 e 8 - Bom
@@ -25,3 +30,10 @@ if (notaDoAluno >= 9 && notaDoAluno <= 10) {
 } else {
     console.log("Insuficiente");
 }
+
+// adiciona opção de operador ternário para a verificação da nota do aluno
+
+const resultadoNota = notaDoAluno >= 9 && notaDoAluno <= 10 ? "Excelente" :
+    notaDoAluno >= 7 && notaDoAluno <= 8 ? "Bom" :
+    notaDoAluno >= 5 && notaDoAluno <= 6 ? "Regular" : "Insuficiente";
+        console.log(resultadoNota);
