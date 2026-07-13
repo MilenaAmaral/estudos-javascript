@@ -13,3 +13,12 @@ for(let numero = 0; numero <= 15; numero ++) {
     console.log("Número ímpar encontrado: " + numero)
 }
 }   
+
+const palavra = "calopsita"
+
+// palavra.length indica o tamanho da palavra, ou seja, quantas letras ela possui. 
+// palavra [1] indica a letra que está na posição 1 da palavra, ou seja, a letra "a".
+
+for(let contador = 0; contador <= palavra.length; contador++) {
+    console.log("Letra atual: " + palavra[contador])
+}   
